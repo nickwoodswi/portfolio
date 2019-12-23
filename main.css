@@ -93,7 +93,7 @@ a {
     text-shadow: 1px 1px white, 2px 2px hotpink, 3px 3px hotpink, 4px 4px hotpink, 5px 5px hotpink, 6px 6px hotpink, 7px 7px hotpink, 8px 8px hotpink, 9px 9px hotpink, 10px 10px hotpink;
 }
 .hero2 h1 {
-    font-size: 36px;
+    font-size: 48px;
 }
 .small {
     font-size: 18px;
@@ -112,10 +112,13 @@ a {
     height: 50px;
     text-align: center;
     line-height: 10px;
-    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 45px;
     margin-top: 30px;
+}
+.intro h4 {
+    font-size: 16px;
+    font-weight: normal;
 }
 .wavy{
     text-decoration-line: underline;
