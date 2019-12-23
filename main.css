@@ -1,3 +1,24 @@
+@media only screen and (max-width: 360px) {
+    
+    .contact {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .contact > .contact-links {
+        align-items: left;
+        margin-left: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 453px) {
+    .projects {
+        position: relative;
+        top: 28px;
+    }
+}
+
 body{
     margin: 0;
 }
@@ -6,9 +27,12 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 .logo{
-    height: 10px;
+    height: 20px;
     width: auto;
     display: inline;
+}
+.logo:hover {
+    opacity: 75%;
 }
 
 .contact{
@@ -18,21 +42,26 @@ a {
     align-items: center;
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: auto;
     overflow: hidden;
     border-bottom: dashed 1px hotpink
 }
 .email{
     margin-left: 10px;
+    margin-top: 10px;
 }
-.contact > ul{
+.contact > .contact-links ul{
     margin-right: 10px;
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding: 0;
 }
-.contact > ul li{
+.contact > .contact-links ul li{
     display: inline;
 }
 
-.contact > ul li img{
+.contact > .contact-links ul li img{
     height: 25px;
 }
 
@@ -43,8 +72,15 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.header {
+    background-color: palegoldenrod;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: dotted 1px cyan;
+}
 .hero1{
-    margin-top: 75px;
+    margin-top: 110px;
     height: 25px;
     text-align: center;
     line-height: 25px;
@@ -56,10 +92,13 @@ a {
     text-align: center;
     line-height: 100px;
     font-size: 36pt;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Impact, Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px white, 2px 2px hotpink, 3px 3px hotpink, 4px 4px hotpink, 5px 5px hotpink, 6px 6px hotpink, 7px 7px hotpink, 8px 8px hotpink, 9px 9px hotpink, 10px 10px hotpink;
+
 }
 .small {
     font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .hero3{
     height: 25px;
@@ -67,7 +106,6 @@ a {
     line-height: 25px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 10px;
 }
 .intro{
     height: 50px;
@@ -75,13 +113,14 @@ a {
     line-height: 10px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
-    margin-top: 15px;
+    margin-bottom: 35px;
+    margin-top: 40px;
 }
 .wavy{
     text-decoration-line: underline;
     text-decoration-style: wavy;
-    text-decoration-color: hotpink
+    text-decoration-color: hotpink;
+    font-weight: bold;
 }
 button{
     background-color: white;
@@ -90,6 +129,7 @@ button{
     padding: 10px;
     border-radius: 12px;
     outline: none;
+    margin-bottom: 10px;
 }
 button:active{
     background-color: black;
@@ -98,10 +138,10 @@ button:active{
     max-width: 800px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     margin-left: 10px;
     margin-right: 10px;
+    font-weight: normal;
 }
 #red{
     border: dotted 1px magenta
@@ -115,8 +155,14 @@ button:active{
 #yellow{
     border: solid 1px yellow
 }
-#border{
+#grey{
     border: dotted 1px lightgray
+}
+#border{
+    border: dotted 1px lightgray;
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .professional-intro{
@@ -140,11 +186,10 @@ button:active{
     text-align: center;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 45px;
+    margin-top: 25px;
 }
 .projects{
-    margin-top: 140px;
-
+    margin-top: 120px;
 }
 .project{
     width: 100%;
@@ -218,4 +263,15 @@ button:active{
     height: 20px;
     position: relative;
     top: 5px;
+}
+.demo {
+    font-weight: bold;
+}
+.demo a:hover {
+    color: darkgray
+}
+.demo a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px white, 2px 2px hotpink, 3px 3px hotpink, 4px 4px hotpink, 5px 5px hotpink;
 }
