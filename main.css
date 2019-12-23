@@ -86,17 +86,21 @@ a {
     height: 25px;
     text-align: center;
     line-height: 25px;
-    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.hero1 h2 {
+    font-size: 18px;
 }
 .hero2{
     margin-bottom: 40px;
     height: 100px;
     text-align: center;
     line-height: 100px;
-    font-size: 36pt;
     font-family: Impact, Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px white, 2px 2px hotpink, 3px 3px hotpink, 4px 4px hotpink, 5px 5px hotpink, 6px 6px hotpink, 7px 7px hotpink, 8px 8px hotpink, 9px 9px hotpink, 10px 10px hotpink;
+}
+.hero2 h1 {
+    font-size: 36px;
 }
 .small {
     font-size: 18px;
@@ -106,8 +110,10 @@ a {
     height: 25px;
     text-align: center;
     line-height: 25px;
-    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.hero3 h3 {
+    font-size: 18px;
 }
 .intro{
     height: 50px;
