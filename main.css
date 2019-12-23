@@ -44,11 +44,13 @@ a {
     width: 100%;
     height: auto;
     overflow: hidden;
-    border-bottom: dashed 1px hotpink
+    border-bottom: dashed 1px hotpink;
+    z-index: 1;
 }
 .email{
     margin-left: 10px;
     margin-top: 10px;
+    line-height: 25px;
 }
 .contact > .contact-links ul{
     margin-right: 10px;
@@ -80,7 +82,7 @@ a {
     border-bottom: dotted 1px cyan;
 }
 .hero1{
-    margin-top: 110px;
+    margin-top: 90px;
     height: 25px;
     text-align: center;
     line-height: 25px;
@@ -88,13 +90,13 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 .hero2{
+    margin-bottom: 40px;
     height: 100px;
     text-align: center;
     line-height: 100px;
     font-size: 36pt;
     font-family: Impact, Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px white, 2px 2px hotpink, 3px 3px hotpink, 4px 4px hotpink, 5px 5px hotpink, 6px 6px hotpink, 7px 7px hotpink, 8px 8px hotpink, 9px 9px hotpink, 10px 10px hotpink;
-
 }
 .small {
     font-size: 18px;
@@ -114,13 +116,16 @@ a {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 35px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .wavy{
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-decoration-color: hotpink;
     font-weight: bold;
+}
+.headerbutton {
+    margin-top: 12px;
 }
 button{
     background-color: white;
@@ -210,6 +215,7 @@ button:active{
     flex-direction: row;
     justify-content: space-between;
     margin: 0 auto;
+    width: 100%;
     max-width: 800px;
     margin-top: 10px;
     padding-bottom: 10px;
@@ -223,7 +229,8 @@ button:active{
     margin-left: 15px;
     text-decoration-line: underline;
     text-decoration-style: wavy;
-    text-decoration-color: hotpink
+    text-decoration-color: hotpink;
+    font-weight: bold;
 }
 .project-coding{
     text-align: right;
@@ -232,28 +239,32 @@ button:active{
     margin-right: 15px;
     text-decoration-line: underline;
     text-decoration-style: wavy;
-    text-decoration-color: greenyellow
+    text-decoration-color: greenyellow;
+    font-weight: bold;
 }
 .project-desc{
     margin: 0 auto;
+    width: 95%;
     max-width: 800px;
-    width: 96%;
     max-height: 200px;
     text-align: left;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .project-links{
-    background-color: lightgrey;
+    border-top: dotted 1px lightgrey;
     text-align: right;
+    max-width: 800px;
     height: 30px;
-    width: 95%;
+    width: 100%;
     display: block;
-    margin-left: 20px;
 }
 .project-links > ul{
     margin-right: 10px;
+    padding: 0;
+    list-style-type: none;
 }
 .project-links > ul li{
     display: inline;
