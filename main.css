@@ -203,6 +203,7 @@ button:active{
 .project{
     width: 100%;
     text-align: center;
+    margin-bottom: 40px;
 }
 .project-screen{
     display: inline-block;
