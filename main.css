@@ -1,8 +1,9 @@
-@media all and (min-width: 440px) {
+@media all and (min-width: 570px) {
     .contact{
         flex-wrap: nowrap !important;
     }
     .contact-links{
+        justify-content: flex-end !important;
         text-align: right;
     }
 }
@@ -27,7 +28,6 @@ a {
     background-color: lightgrey;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     position: fixed;
     width: 100%;
@@ -43,24 +43,30 @@ a {
     }
     .contact-links{
         width: 100%;
-        padding-left: 8px;
-        padding-top: 3px;
-        padding-bottom: 3px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        padding-top: 10px;
     }
-.contact > .contact-links ul{
-    margin-right: 10px;
-    list-style-type: none;
-    margin-top: 5px;
-    margin-bottom: 0px;
-    padding: 0;
-}
-.contact > .contact-links ul li{
-    display: inline;
-}
+        .contact > .contact-links ul{
+            display: flex;
+            justify-content: flex-start;
+            list-style-type: none;
+            margin: 0;
+            padding-right: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-left: 10px;
+        }
+        .contact > .contact-links ul li{
+            display: inline-block;
+        }
 
-.contact > .contact-links ul li img{
-    height: 25px;
-}
+        .contact > .contact-links ul li img{
+            height: 25px;
+            padding-top: 6px;
+            margin-right: 10px;
+        }
 
 .flex-wrapper{
     display: flex;
@@ -111,7 +117,6 @@ a {
 .intro{
     height: 50px;
     text-align: center;
-    line-height: 10px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 45px;
     margin-top: 75px;
@@ -135,37 +140,47 @@ button{
     padding: 10px;
     border-radius: 12px;
     outline: none;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-right: 10px;
+    width: 200px;
 }
+    #headerbutton{
+        width: 100px;
+        margin-right: 0px;
+    }
 button:active{
     background-color: black;
 }
 .bio{
     max-width: 800px;
     margin: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 36px;
 }
 .bio h5{
     font-size: 16px;
     font-weight: normal;
 }
 #red{
-    border: dotted 1px magenta
+    border: dotted 1px magenta;
+    padding: 5px;
 }
 #green{
-    border: solid 1px greenyellow
+    border: solid 1px greenyellow;
+    padding: 5px;
 }
 #blue{
-    border: dotted 1px cyan
+    border: dotted 1px cyan;
+    padding: 5px;
 }
 #yellow{
-    border: solid 1px yellow
+    border: solid 1px yellow;
+    padding: 5px;
 }
 #grey{
-    border: dotted 1px lightgray
+    border: dotted 1px lightgray;
+    padding: 5px;
 }
 #border{
     border: dotted 1px lightgray;
@@ -190,20 +205,13 @@ button:active{
 .professional-intro > .arrow-down img{
     width: 100px;
 }
-.resume-download{
-    width: 100%;
-    text-align: center;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 25px;
-}
 .projects{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 125px;
+    margin-top: 100px;
 }
 .project{
     display: flex;
