@@ -19,7 +19,7 @@ let types = [
 
 
 function changeButton() {
-    $('.headerbutton').on('click', function(event){
+    $('#headerbutton').on('click', function(event){
         let type = types[Math.floor(Math.random()*types.length)];
         $('.headerbutton').html(type);
     });

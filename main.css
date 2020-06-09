@@ -33,7 +33,7 @@ a {
     width: 100%;
     height: auto;
     overflow: hidden;
-    border-bottom: dashed 1px hotpink;
+    border-bottom: dashed 1px #FF69B4;
     z-index: 1;
 }
     .email{
@@ -77,10 +77,12 @@ a {
 }
 
 .header {
-    background-color: palegoldenrod;
+    background-color: #FFFF69;
     width: 100%;
-    padding: 25px;
-    border-bottom: dotted 1px cyan;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-bottom: dotted 1px #69FFB4;
+    overflow: hidden;
 }
 .hero1{
     margin-top: 100px;
@@ -135,7 +137,7 @@ a {
 }
 button{
     background-color: white;
-    border: 1px dotted lightgray;
+    border: 1px dotted #6969FF;
     color: black;
     padding: 10px;
     border-radius: 12px;
@@ -163,19 +165,19 @@ button:active{
     font-weight: normal;
 }
 #red{
-    border: dotted 1px magenta;
+    border: dotted 1px #FF69B4;
     padding: 5px;
 }
 #green{
-    border: solid 1px greenyellow;
+    border: solid 1px #69FFB4;
     padding: 5px;
 }
 #blue{
-    border: dotted 1px cyan;
+    border: dotted 1px #6969ff;
     padding: 5px;
 }
 #yellow{
-    border: solid 1px yellow;
+    border: solid 1px #FFFF69;
     padding: 5px;
 }
 #grey{
@@ -249,7 +251,7 @@ button:active{
     font-size: large;
     text-decoration-line: underline;
     text-decoration-style: wavy;
-    text-decoration-color: hotpink;
+    text-decoration-color: #FF69B4;
     font-weight: bold;
 }
 .project-coding{
@@ -258,7 +260,7 @@ button:active{
     font-size: large;
     text-decoration-line: underline;
     text-decoration-style: wavy;
-    text-decoration-color: greenyellow;
+    text-decoration-color: #69ffb4;
     font-weight: bold;
 }
 .project-desc{
